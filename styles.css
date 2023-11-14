@@ -1,0 +1,172 @@
+body {
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.title {
+    font-family: 'Roboto', Arial;
+    color: white;
+}
+
+.container {
+    width: 17%;
+    display: flex;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.avatar {
+    max-width: 100%;
+    height: 120px;
+    border-radius: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-avatar {
+    flex: 0 0 45%;
+}
+
+.container-text {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', Arial;
+}
+
+.container-donate {
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 25px;
+    border: none;
+}
+
+.paypal {
+    height: 200px;
+    transition: all 0.4s;
+}
+
+.paypal:hover {
+    cursor: pointer;
+    height: 240px;
+}
+
+.ko-fi {
+    height: 75px;
+    margin-bottom: 40px;
+    transition: all 0.4s;
+}
+
+.ko-fi:hover {
+    cursor: pointer;
+    height: 90px;
+}
+
+.buy-coffe {
+    height: 150px;
+    margin-bottom: 40px;
+    transition: all 0.4s;
+}
+
+.buy-coffe:hover {
+    cursor: pointer;
+    height: 170px;
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-family: 'Roboto', Arial;
+        color: white;
+        font-size: 28px;
+    }
+    
+    .container {
+        width: 85%;
+        display: flex;
+        border: none;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.699);
+    }
+    
+    .avatar {
+        max-width: 100%;
+        height: 120px;
+        border-radius: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .container-avatar {
+        flex: 0 0 45%;
+    }
+    
+    .container-text {
+        flex: 1;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .text {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto', Arial;
+    }
+
+    .container-donate {
+        width: 97%;
+        background-color: rgba(0, 0, 0, 0.699);
+        border-radius: 25px;
+        border: none;
+    }
+    
+    .paypal {
+        height: 200px;
+        transition: all 0.4s;
+    }
+    
+    .paypal:hover {
+        cursor: pointer;
+        height: 240px;
+    }
+    
+    .ko-fi {
+        height: 75px;
+        margin-bottom: 40px;
+        transition: all 0.4s;
+    }
+    
+    .ko-fi:hover {
+        cursor: pointer;
+        height: 90px;
+    }
+    
+    .buy-coffe {
+        height: 150px;
+        margin-bottom: 40px;
+        transition: all 0.4s;
+    }
+    
+    .buy-coffe:hover {
+        cursor: pointer;
+        height: 170px;
+    }
+}
