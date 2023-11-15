@@ -16,7 +16,7 @@ body {
     background-color: rgba(0, 0, 0, 0.699);
     position: relative;
     left: -100%;
-    animation: slideIn 1s forwards;
+    animation: slideIn 0.8s forwards;
 }
 
 @keyframes slideIn {
@@ -63,7 +63,7 @@ body {
     border: none;
     position: relative;
     right: -100%;
-    animation: slideInDonate 1s forwards;
+    animation: slideInDonate 0.8s forwards;
 }
 
 @keyframes slideInDonate {
