@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 17%;
+    width: 20%;
     display: flex;
     border: none;
     border-radius: 25px;
@@ -34,7 +34,7 @@ body {
 }
 
 .container-avatar {
-    flex: 0 0 45%;
+    flex: 0 0 40%;
 }
 
 .container-text {
@@ -57,7 +57,7 @@ body {
 }
 
 .container-donate {
-    width: 25%;
+    width: 35%;
     background-color: rgba(0, 0, 0, 0.699);
     border-radius: 25px;
     border: none;
