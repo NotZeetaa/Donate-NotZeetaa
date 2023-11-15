@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 20%;
+    width: 360px;
     display: flex;
     border: none;
     border-radius: 25px;
