@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    overflow-x: hidden;
 }
 
 .title {
@@ -13,6 +14,15 @@ body {
     border: none;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.699);
+    position: relative;
+    left: -100%;
+    animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        left: 0;
+    }
 }
 
 .avatar {
@@ -51,6 +61,15 @@ body {
     background-color: rgba(0, 0, 0, 0.699);
     border-radius: 25px;
     border: none;
+    position: relative;
+    right: -100%;
+    animation: slideInDonate 1s forwards;
+}
+
+@keyframes slideInDonate {
+    to {
+        right: 0;
+    }
 }
 
 .paypal {
