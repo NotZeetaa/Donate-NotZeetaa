@@ -93,17 +93,6 @@ body {
     height: 90px;
 }
 
-.buy-coffe {
-    height: 150px;
-    margin-bottom: 40px;
-    transition: all 0.4s;
-}
-
-.buy-coffe:hover {
-    cursor: pointer;
-    height: 170px;
-}
-
 @media only screen and (max-width: 1100px) {
     .title {
         font-family: 'Roboto', Arial;
@@ -176,16 +165,5 @@ body {
     .ko-fi:hover {
         cursor: pointer;
         height: 90px;
-    }
-    
-    .buy-coffe {
-        height: 150px;
-        margin-bottom: 40px;
-        transition: all 0.4s;
-    }
-    
-    .buy-coffe:hover {
-        cursor: pointer;
-        height: 170px;
     }
 }
