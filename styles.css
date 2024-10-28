@@ -104,6 +104,17 @@ body {
     height: 180px;
 }
 
+.github-sponsor {
+    height: 170px;
+    margin-bottom: 40px;
+    transition: all 0.4s;
+}
+
+.github-sponsor:hover {
+    cursor: pointer;
+    height: 200px;
+}
+
 @media only screen and (max-width: 1100px) {
     .title {
         font-family: 'Roboto', Arial;
@@ -187,5 +198,16 @@ body {
     .patreon:hover {
         cursor: pointer;
         height: 180px;
+    }
+
+    .github-sponsor {
+        height: 170px;
+        margin-bottom: 40px;
+        transition: all 0.4s;
+    }
+    
+    .github-sponsor:hover {
+        cursor: pointer;
+        height: 200px;
     }
 }
