@@ -93,6 +93,17 @@ body {
     height: 90px;
 }
 
+.patreon {
+    height: 150px;
+    margin-bottom: 40px;
+    transition: all 0.4s;
+}
+
+.patreon:hover {
+    cursor: pointer;
+    height: 180px;
+}
+
 @media only screen and (max-width: 1100px) {
     .title {
         font-family: 'Roboto', Arial;
@@ -165,5 +176,16 @@ body {
     .ko-fi:hover {
         cursor: pointer;
         height: 90px;
+    }
+
+    .patreon {
+        height: 150px;
+        margin-bottom: 40px;
+        transition: all 0.4s;
+    }
+    
+    .patreon:hover {
+        cursor: pointer;
+        height: 180px;
     }
 }
